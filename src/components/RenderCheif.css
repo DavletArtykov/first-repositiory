@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/2901215/pexels-photo-2901215.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+
+}
+
+.render{
+    
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+  
+
+   
+  
+
+}
+
+.render input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+    font-size: 20px;
+    box-shadow: 0 10px 10px ;
+  
+
+}
+
+.render button{
+    width: 100px;
+    height: 40px;
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+    background-color: yellow;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px ;
+}
+
+
+ .render .render-value{
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        align-items: center;
+        font-size: 20px;
+         background-color: wheat;
+         margin: 10px;
+         padding: 10px;
+         border-radius: 10px;
+         border: 2px solid yellow;
+         box-shadow: 0 10px 10px ;
+}
+
+.render .render-date{
+ display: flex;
+ align-items: center;
+
+
+}
+.render .render-date div{
+    margin: 10px;
+}
